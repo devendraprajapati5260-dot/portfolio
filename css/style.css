@@ -78,6 +78,12 @@ section {
     transition: 0.4s;
 }
 
+.menu ul li:hover::after,
+.menu ul li:hover::after.active {
+    width: 100%;
+    transition: 0.4s;
+}
+
 .menu ul li:hover::after {
     width: 100%;
     transition: 0.4s;
