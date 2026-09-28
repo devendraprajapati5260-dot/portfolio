@@ -1618,6 +1618,10 @@ section {
         width: 24px !important;
     }
 
+     .project-box {
+        width: 50%;
+    }
+
 
     .contact-sect   ion {
         padding: 60px 20px;
