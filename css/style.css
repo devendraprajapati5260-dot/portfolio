@@ -53,19 +53,9 @@ section {
 
 .menu ul {
     padding: 0;
-    display: none;
+
 }
 
-.menu ul.showmodel {
-    display: block;
-    position: absolute;
-    top: 71px;
-    right: -20px;
-    background: #c2c2c2;
-    width: 300px;
-    padding: 15px 20px;
-    height: 100rem;
-}
 
 .menu ul li {
     display: inline-block;
@@ -1534,32 +1524,6 @@ section {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .contact-container {
         grid-template-columns: 1fr;
 
@@ -1595,6 +1559,24 @@ section {
 ========================================= */
 
 @media (max-width: 767px) {
+
+
+    .menu ul{
+        display: none;
+    }
+
+    .menu ul.showmodel {
+    display: block;
+    position: absolute;
+    top: 71px;
+    right: -20px;
+    background: #c2c2c2;
+    width: 300px;
+    padding: 15px 20px;
+    height: 100rem;
+    z-index: 9999;
+}
+
 
     .what-had {
         padding: 0px 14px;
