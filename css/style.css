@@ -9,6 +9,10 @@ body {
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 section {
     width: 100%;
     float: left;
@@ -79,7 +83,8 @@ section {
     transition: 0.4s;
 }
 
-.menu ul li:hover a {
+.menu ul li:hover a,
+.menu ul li a.active {
     color: #723ec3;
 }
 

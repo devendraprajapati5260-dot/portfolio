@@ -18,7 +18,7 @@
 
         <div class="hadder">
             <div class="logo">
-                <a href="#">
+                <a href="#home">
                     <span>Mr.</span> Devendra
                 </a>
             </div>
@@ -27,27 +27,27 @@
             <div class="menu">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#home">Home</a>
                     </li>
 
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
 
                     <li>
-                        <a href="#">Skills</a>
+                        <a href="#skills">Skills</a>
                     </li>
 
                     <li>
-                        <a href="#">Projects</a>
+                        <a href="#project">Projects</a>
                     </li>
 
                     <li>
-                        <a href="#">Experience</a>
+                        <a href="#experience">Experience</a>
                     </li>
 
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
 
                 </ul>
@@ -70,7 +70,7 @@
 
     </section>
 
-    <section
+    <section id="home"
         style="padding-left: 20px; background: linear-gradient(76deg,rgba(255, 219, 174, 0.18) 17%, rgba(0, 0, 0, 0.08) 54%);">
         <div class="banner">
             <div class="banner-box">
@@ -99,7 +99,7 @@
 
     </section>
 
-    <section style="padding: 40px 15px; padding-bottom: 50px; background: #ffffff;">
+    <section id="what" style="padding: 40px 15px; padding-bottom: 50px; background: #ffffff;">
 
         <div class="what">
             <div class="what-had">
@@ -176,7 +176,7 @@
 
     </section>
 
-    <section style="padding: 40px 15px; background: #fff2e5;">
+    <section id="project" style="padding: 40px 15px; background: #fff2e5;">
         <div class="project">
             <div class="project-had">
                 <h2>My Projects.</h2>
@@ -439,7 +439,7 @@
         </div>
     </section>
 
-    <section style="padding: 40px 15px; background: #723ec314;">
+    <section id="about" style="padding: 40px 15px; background: #723ec314;">
         <div class="about">
             <div class="about-box">
 
@@ -510,7 +510,7 @@
 
     </section>
 
-    <section style="padding: 40px 15px;">
+    <section id="skills" style="padding: 40px 15px;">
         <div class="ourskills">
             <div class="skills-had">
                 <h2>My Skills</h2>
@@ -962,6 +962,27 @@
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/slick.js"></script>
+
+
+    <script>
+
+        const menuLinks = document.querySelectorAll('.menu ul li a');
+
+        menuLinks.forEach(link => {
+
+            link.addEventListener('click', function () {
+
+                menuLinks.forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                this.classList.add('active');
+
+            });
+
+        });
+
+    </script>
 
 
     <script>
