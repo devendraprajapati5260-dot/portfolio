@@ -1694,6 +1694,15 @@ section {
         left: 0;
     }
 
+    .skills-had h2 {
+        font-size: 32px;
+    }
+
+    .skills-had p {
+        font-size: 14px;
+        max-width: none;
+    }
+
 
     .form-row {
         grid-template-columns: 1fr;
