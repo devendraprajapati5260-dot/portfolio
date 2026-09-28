@@ -59,9 +59,9 @@ section {
 .menu ul.showmodel {
     display: block;
     position: absolute;
-    top: 55px;
+    top: 71px;
     right: -20px;
-    background: #d6d6d6;
+    background: #c2c2c2;
     width: 300px;
     padding: 15px 20px;
     height: 100rem;
