@@ -1435,6 +1435,16 @@ section {
     display: none;
 }
 
+.hadder.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    padding: 15px;
+    background: #ffffffa8;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px -2px 35px 10px #000000a3;
+}
+
 
 /* =========================================
    TABLET
