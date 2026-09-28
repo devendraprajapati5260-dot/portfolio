@@ -1567,6 +1567,45 @@ section {
 
 @media (max-width: 767px) {
 
+    .what-had {
+        padding: 0px 14px;
+        margin-bottom: 35px;
+    }
+
+    .what-had h2 {
+        font-size: 32px;
+    }
+
+    .what-box {
+        width: 50% !important;
+    }
+
+    .whattext-box {
+        justify-content: center;
+    }
+
+    .whattext-box h2 {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .project-had {
+        gap: 10px;
+    }
+
+    .project-had h2 {
+        font-size: 32px;
+    }
+
+    .project-had ul {
+        text-align: center;
+    }
+
+    .project-had ul li a {
+        font-size: 11px;
+    }
+
+
     .contact-sect   ion {
         padding: 60px 20px;
     }
