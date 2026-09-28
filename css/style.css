@@ -1431,7 +1431,7 @@ section {
     color: #5c2ca4;
 }
 
-.menu-rrbtn{
+.menu-rrbtn {
     display: none;
 }
 
@@ -1442,19 +1442,19 @@ section {
 
 @media (max-width: 992px) {
 
-    .menu ul{
+    .menu ul {
         display: none;
     }
 
-    .menu-btn{
+    .menu-btn {
         display: none;
     }
 
-    .menu-rrbtn{
+    .menu-rrbtn {
         display: block;
     }
 
-    .menu-rrbtn i{
+    .menu-rrbtn i {
         font-size: 30px;
     }
 
@@ -1462,12 +1462,12 @@ section {
         font-size: 54px;
     }
 
-    .banner-box{
+    .banner-box {
         width: 100%;
 
     }
 
-    .banner-imagebox{
+    .banner-imagebox {
         display: none;
     }
 
@@ -1614,11 +1614,11 @@ section {
         font-size: 24px;
     }
 
-    .wbicon-box img{
+    .wbicon-box img {
         width: 24px !important;
     }
 
-     .project-box {
+    .project-box {
         width: 100%;
     }
 
@@ -1636,9 +1636,36 @@ section {
         padding: 4px 20px;
     }
 
+    .abb-text {
+        font-size: 32px;
+    }
+
+    .about p {
+        max-width: none;
+        font-size: 14px;
+    }
+
+    .about-box button {
+        font-size: 13px;
+    }
+
+    .about-box {
+        width: 100%;
+        float: left;
+    }
+
+    .image-bgbox {
+        margin-bottom: 372px;
+    }
+
+    .about-box {
+        width: 100%;
+        float: left;
+    }
 
 
-    .contact-sect   ion {
+
+    .contact-sect ion {
         padding: 60px 20px;
     }
 
@@ -1823,7 +1850,7 @@ section {
 
 }
 
-.footer{
+.footer {
     width: 100%;
     color: #151b43;
     text-align: center;
@@ -1836,8 +1863,4 @@ section {
     font-weight: 300;
 }
 
-.footer h3 i{
-
-}
-
-
+.footer h3 i {}
