@@ -1669,6 +1669,11 @@ section {
 
     .image-bgbox {
         margin-bottom: 372px;
+        width: 410px;
+    }
+
+    .aboutimg-box img {
+        width: 393px;
     }
 
     .about-box {
@@ -1705,6 +1710,7 @@ section {
     .creative-bigbox {
         top: 325px;
         left: 0;
+        width: 70%;
     }
 
     .skills-had h2 {
