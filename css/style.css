@@ -1622,6 +1622,21 @@ section {
         width: 100%;
     }
 
+    .proimgtext h2 {
+        font-size: 20px;
+    }
+
+
+    .proimgtext p {
+        font-size: 13px;
+    }
+
+    .proimgtext button {
+        font-size: 13px;
+        padding: 4px 20px;
+    }
+
+
 
     .contact-sect   ion {
         padding: 60px 20px;
