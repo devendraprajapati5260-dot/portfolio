@@ -1614,6 +1614,10 @@ section {
         font-size: 24px;
     }
 
+    .wbicon-box img{
+        width: 24px !important;
+    }
+
 
     .contact-sect   ion {
         padding: 60px 20px;
