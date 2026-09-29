@@ -113,6 +113,11 @@ section {
     border: none;
 }
 
+.menu-btn button a{
+    text-decoration: none;
+    color: white;
+}
+
 .banner {
     width: 100%;
     float: left;
