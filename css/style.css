@@ -78,11 +78,6 @@ section {
     transition: 0.4s;
 }
 
-.menu ul li:hover::after,
-.menu ul li:hover::after.active {
-    width: 100%;
-    transition: 0.4s;
-}
 
 .menu ul li:hover::after {
     width: 100%;
@@ -595,6 +590,8 @@ section {
 .skills-had {
     width: 100%;
     float: left;
+    padding: 0px 10px;
+    margin-bottom: 20px;
 }
 
 .skills-had h2 {
@@ -1586,6 +1583,10 @@ section {
     padding: 15px 20px;
     height: 100rem;
     z-index: 9999;
+}
+
+.skills-had {
+    padding: 15px 0px;
 }
 
 
