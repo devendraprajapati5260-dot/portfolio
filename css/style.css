@@ -84,6 +84,10 @@ section {
     transition: 0.4s;
 }
 
+.menu ul li.active::after {
+    width: 100%;
+}
+
 .menu ul li:hover a,
 .menu ul li a.active {
     color: #723ec3;

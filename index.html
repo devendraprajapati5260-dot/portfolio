@@ -440,7 +440,7 @@
     </section>
 
     <section id="about" style="padding: 40px 0px; padding-left: 25px; background: #723ec314;">
-        
+
         <div class="about">
             <div class="about-box">
 
@@ -960,6 +960,24 @@
     <script src="js/slick.js"></script>
 
 
+
+
+    <script>
+        const menuItems = document.querySelectorAll(".menu ul li");
+
+        menuItems.forEach(item => {
+            item.addEventListener("click", () => {
+
+                // Pehle sabse active hatao
+                menuItems.forEach(li => {
+                    li.classList.remove("active");
+                });
+
+                // Jis par click kiya usko active karo
+                item.classList.add("active");
+            });
+        });
+    </script>
 
 
     <script>
