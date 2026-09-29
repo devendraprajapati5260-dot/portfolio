@@ -113,10 +113,21 @@ section {
     border: none;
 }
 
-.menu-btn button a{
+.menu-btn button a {
     text-decoration: none;
     color: white;
     padding: 16px 30px;
+}
+
+.bannerprojectbtn {
+
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.bannerresumbtn {
+    display: none;
 }
 
 .banner {
@@ -659,34 +670,6 @@ section {
     margin-top: -10px;
     max-width: 110px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
@@ -1578,26 +1561,37 @@ section {
 
 @media (max-width: 767px) {
 
+    .bannerprojectbtn {
+        display: none;
+    }
 
-    .menu ul{
+    .bannerresumbtn {
+        display: block;
+        text-decoration: none;
+        color: white;
+    }
+
+
+
+    .menu ul {
         display: none;
     }
 
     .menu ul.showmodel {
-    display: block;
-    position: absolute;
-    top: 71px;
-    right: -20px;
-    background: #c2c2c2;
-    width: 300px;
-    padding: 15px 20px;
-    height: 100rem;
-    z-index: 9999;
-}
+        display: block;
+        position: absolute;
+        top: 71px;
+        right: -20px;
+        background: #c2c2c2;
+        width: 300px;
+        padding: 15px 20px;
+        height: 100rem;
+        z-index: 9999;
+    }
 
-.skills-had {
-    padding: 15px 0px;
-}
+    .skills-had {
+        padding: 15px 0px;
+    }
 
 
     .what-had {
