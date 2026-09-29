@@ -124,6 +124,7 @@ section {
     display: block;
     text-decoration: none;
     color: white;
+    padding: 10px 25px;
 }
 
 .bannerresumbtn {
@@ -193,7 +194,6 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 25px;
     border: none;
     gap: 5px;
     margin-top: 30px;
@@ -1569,6 +1569,7 @@ section {
         display: block;
         text-decoration: none;
         color: white;
+        padding: 10px 25px;
     }
 
 
