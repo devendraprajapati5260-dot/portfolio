@@ -1572,6 +1572,19 @@ section {
     }
 
 
+    .bannerprojectbtn {
+        display: none;
+    }
+
+    .bannerresumbtn {
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 15px 25px;
+    }
+
+
+
 
 }
 
