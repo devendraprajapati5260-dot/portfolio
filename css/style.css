@@ -465,6 +465,7 @@ section {
     align-items: center;
     transition: 0.4s;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .proimgtext button i {
@@ -602,6 +603,7 @@ section {
     gap: 10px;
     transition: 0.4s;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 .about-box button:hover {
