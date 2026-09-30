@@ -337,7 +337,7 @@ section {
     float: left;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 25px;
 }
 
@@ -346,33 +346,6 @@ section {
     color: #272f54;
     margin: 0;
     font-weight: 600;
-}
-
-.project-had ul {
-    padding: 0;
-    margin: 0;
-}
-
-.project-had ul li {
-    display: inline-block;
-    padding: 10px 5px;
-}
-
-.project-had ul li a {
-    text-decoration: none;
-    font-size: 16px;
-    color: #272f54;
-    background: white;
-    border-radius: 50px;
-    padding: 5px 14px;
-    font-weight: 600;
-    border: 1px solid lightgray;
-}
-
-.project-had ul li a:hover {
-    background: #723ec2;
-    border: 1px solid rgba(128, 128, 128, 0);
-    color: white;
 }
 
 .project-bigbox {
@@ -1516,9 +1489,6 @@ section {
         width: 50%;
     }
 
-    .project-had ul li {
-        padding: 10px 3px;
-    }
 
     .project-box {
         width: 50%;

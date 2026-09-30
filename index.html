@@ -188,38 +188,6 @@
             <div class="project-had">
                 <h2>My Projects.</h2>
 
-                <ul>
-                    <li>
-                        <a class="overall" href="#">All</a>
-                    </li>
-
-                    <li>
-                        <a class="mlcss" href="#">HTML/CSS</a>
-                    </li>
-
-                    <li>
-                        <a class="windcss" href="#">Tailwind</a>
-                    </li>
-
-                    <li>
-                        <a class="strap" href="#">Bootstrap</a>
-                    </li>
-
-                    <li>
-                        <a class="jigimaa" href="#">Figma</a>
-                    </li>
-
-                    <li>
-                        <a class="shop" href="#">Photoshop</a>
-                    </li>
-
-                    <li>
-                        <a class="press" href="#">Wordpress</a>
-                    </li>
-
-
-                </ul>
-
             </div>
 
             <div class="project-bigbox">
@@ -359,7 +327,7 @@
                         </div>
 
                         <div class="proimgtext">
-                            <h3>figma Project</h3>
+                            <h3>Figma Project</h3>
                             <h2>Clean Safer BPL</h2>
                             <p>Smart CRM & Workflow Automation platform designed to streamline business operations.</p>
                             <a href="https://www.figma.com/proto/ZzeO71h9JSfesIqoTdWBkv/Untitled?node-id=3-19&t=X4g2dk2NOmrfTagM-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1">
@@ -380,7 +348,7 @@
                         </div>
 
                         <div class="proimgtext">
-                            <h3>figma Project</h3>
+                            <h3>Figma Project</h3>
                             <h2>Innovative Polymers BPL</h2>
                             <p>Smart CRM & Workflow Automation platform designed to streamline business operations.</p>
                             <a href="https://www.figma.com/proto/ZzeO71h9JSfesIqoTdWBkv/Untitled?node-id=3-561&t=X4g2dk2NOmrfTagM-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1">
@@ -1019,35 +987,6 @@
         });
 
 
-    </script>
-
-
-    <script>
-        const buttons = {
-            overall: ".project-box",
-            mlcss: ".hyper-box",
-            windcss: ".tail-box",
-            strap: ".boot-box",
-            jigimaa: ".figma-box",
-            shop: ".photo-box",
-            press: ".word-box"
-        };
-
-        const cards = document.querySelectorAll(".project-box");
-
-        Object.entries(buttons).forEach(([btn, selector]) => {
-            document.querySelector("." + btn).addEventListener("click", e => {
-                e.preventDefault();
-
-                cards.forEach(card => {
-                    card.style.display = "none";
-                });
-
-                document.querySelectorAll(selector).forEach(card => {
-                    card.style.display = "block";
-                });
-            });
-        });
     </script>
 
 
