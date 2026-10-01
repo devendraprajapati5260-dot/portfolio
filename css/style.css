@@ -1452,6 +1452,10 @@ section {
         width: 100%;
     }
 
+    .projectimgbox {
+        height: 155px;
+    }
+
     .menu ul {
         display: none;
     }
